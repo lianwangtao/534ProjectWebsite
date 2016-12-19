@@ -22,11 +22,11 @@ html, body {
   opacity: 0.9;
 }
 
-.mui-panel h2 {
+.project-title {
   font-size: 30px;
 }
 
-.mui-panel p {
+.project-desc {
   font-size: 20px;
   margin: 20px;
 }
