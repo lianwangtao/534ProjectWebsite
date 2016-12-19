@@ -1,13 +1,36 @@
 
+html, body {
+    height: 100%;
+}
 
-/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+.navbar {
+  margin-bottom: 0px;
+}
+
 .home {
-  height: 815px;
   padding-top: 10%;
+  background-image:url('pic1.png');
+  background-size: cover;
+  background-position: center;;
+  background-repeat: no-repeat;
+  min-height: 93%;
+  height:auto !important; /* cross-browser */
+  height: 100%; /* cross-browser */
+}
+
+.mui-panel {
+  opacity: 0.9;
 }
 
 .about {
-  height: 815px;
+  padding-top: 5%;
+  background-image:url('pic1.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 93%;
+  height:auto !important; /* cross-browser */
+  height: 100%; /* cross-browser */
 }
 
 .title {
