@@ -4,6 +4,7 @@
   <title>534 Project</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/3.3.7/journal/bootstrap.min.css" />
@@ -37,8 +38,72 @@
   <div class="col-lg-6 col-lg-offset-3 mui-panel">
     <h1 class="title">Project Overview</h1>
     <hr />
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="./BHillResult0.png" alt="cartoon" width="460" height="345">
+        <div class="carousel-caption">
+          <h3>Cartoon Style Sketch</h3>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="./BHillResult1.png" alt="Chania" width="460" height="345">
+        <div class="carousel-caption">
+          <h3>Contour Sketch</h3>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="./BHillResult2.png" alt="Flower" width="460" height="345">
+        <div class="carousel-caption">
+          <h3>Pencil Sketch in Black and White</h3>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="./BHillResult3.png" alt="Flower" width="460" height="345">
+        <div class="carousel-caption">
+          <h3>Pencil Sketch in Color</h3>
+        </div>
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+  <h2>Abstract</h2>
+  <hr />
+  <p>
+    Phones and camera have become accessible in the modern era; hence, taking a photo has become common to public. Nowadays, performing visual transformations on an image is already common to anyone who has a smartphone. Some artists have used these snapshots as inspiration to create different art forms; however, not everyone who wants to convert images to aesthetic outcome has the necessary skills. We have created a program to resolve this issue by asking the user to choose the artistic styles they want. Our project aims to  generate 4 styles to the input image, and the output image could be cartoonified picture, contour drawing, pencil sketches in black & white and in colors.
+  </p>
+
+  <h2>Motivation and Problem Statement</h2>
+  <hr />
+  <p>
+    In class, professor introduced bilateral filtering to us, and it sparked our interests in “artistic image processing”. We think it is a waste of time and energy for people to create paintings that computer programs can generate easily. We related techniques and knowledge we had learned in class such as histogram equalization, edge detection and texture transferring to our project. We have also found some limitations of certain filters after getting our results, so we used some noise reduction methods to adjust our output images. An example of this can be viewed as our contour drawing result.
+  </p>
+
   </div>
 </div>
+
 
 <footer class="text-center">
   <p>&copy;2016 Wangtao Lian, Rulan Zheng &amp; Ruiqi Yin</p>
